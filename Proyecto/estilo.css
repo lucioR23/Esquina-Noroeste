@@ -1,0 +1,232 @@
+body {
+    /*background-color: #3498db;*/ /* Color de fondo azul */
+    background-image: url('img/ddd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.titulo{
+   /* width: 100%;
+    height: 100%;*/
+   /* background-color: blueviolet;*/
+   /* padding: 20px 0px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titulo label{
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+}
+
+.container {
+    background-color: #fff; /* Color de fondo blanco para el contenedor principal */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra */
+    /*width: 40%;*/
+    /*height: 50%;*/
+}
+.filcol{
+    /*display: flex;*/
+    background-color: rgb(77, 48, 206);
+    justify-content: center;
+    /*justify-content: flex-start;*/
+    height: 25%;
+    border-radius: 10px;
+}
+.filcol1{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.filcol2{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.filcol1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */
+    width: 50%;
+    position: relative;
+}
+.filcol1-1 label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+    color: #333; /* Cambia el color del texto */
+    padding: 10px 20px; /* Agrega relleno alrededor del texto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra */
+}
+.filcol1-2{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */
+    width: 50%;
+    position: relative;
+}
+.filcol1-2 label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+    color: #333; /* Cambia el color del texto */
+    padding: 10px 20px; /* Agrega relleno alrededor del texto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra */
+}
+.filcol1-2 label{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Cambia el color del texto */
+    padding: 10px 20px; /* Agrega relleno alrededor del texto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra */
+}
+.filcol2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */
+    width: 50%;
+    position: relative;
+}
+.filcol2-1 input[type="number"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Cambia el color del texto */
+    background-color: #f0f0f0; /* Agrega un fondo al input */
+    padding: 10px 20px; /* Agrega relleno alrededor del texto */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 7px; /* Agrega bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra */
+    width: 70%; /* Hace que el input ocupe todo el ancho del contenedor */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+}
+.filcol2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */
+    width: 50%;
+    position: relative;
+}
+.filcol2-2 input[type="number"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Cambia el color del texto */
+    background-color: #f0f0f0; /* Agrega un fondo al input */
+    padding: 10px 20px; /* Agrega relleno alrededor del texto */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 7px; /* Agrega bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra */
+    width: 70%; /* Hace que el input ocupe todo el ancho del contenedor */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+}
+
+.junto {
+    background-color: #cfcfcfcb;
+    padding: 0px 5px;
+    display: flex;
+}
+.abajo {
+    background-color: #cfcfcfcb;
+    padding: 10px;
+}
+.tata {
+    padding: 5px;
+}
+.toto {
+    padding: 5px;
+}
+.junto2 {
+    background-color: #302525cb;
+    padding: 0px 5px;
+    display: flex;
+}
+.abajo2 {
+    background-color: #302525cb;
+    padding: 10px;
+}
+.tata2 {
+    padding: 5px;
+}
+.toto2 {
+    padding: 5px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.botones1{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */
+    width: 50%;
+    position: relative;
+}
+.botones2{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */
+    width: 50%;
+    position: relative;
+}
+#main-container {
+    background-color: #fff; /* Color de fondo blanco para el cuadro principal */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más prominente */
+    max-width: 800px; /* Ancho máximo para mejor legibilidad */
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*label {
+    display: block;
+    margin-bottom: 10px;
+}*/
+
+input[type="number"] {
+    width: 60px; /* Ancho adecuado para campos de entrada */
+    /*margin-right: 10px;*/
+}
+
+button {
+    background-color: #4CAF50; /* Color de fondo verde para botones */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 90%;
+}
+
+button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el cursor */
+}
+#miContenedor input[type="number"],
+#ContenedorFila input[type="number"],
+#contenedorColumna input[type="number"] {
+    font-family: Arial, sans-serif;
+    height: 20px;
+    text-align: center;
+}
+#mi2Contenedor input[type="number"],
+#ofertaRestanteContainer input[type="number"],
+#demandaRestanteContainer input[type="number"] {
+    font-family: Arial, sans-serif;
+    height: 20px;
+    text-align: center;
+}

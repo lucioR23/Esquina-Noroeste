@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz en JavaScript</title>
+    
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    
+    
+    
+    <div class="container">
+    <div class="titulo">
+    <label>Esquina noroeste</label>
+    </div>
+    <br>
+    <div class="filcol">
+        <div class="filcol1">
+            <div class="filcol1-1">
+    <label for="filas">Número de filas</label>
+            </div>
+            <div class="filcol1-2">
+    <label for="columnas">Número de columnas</label>
+            </div>
+        </div>
+        
+        <div class="filcol2">
+            <div class="filcol2-1">
+    <input type="number" id="filas">
+            </div>
+            <div class="filcol2-2">
+    <input type="number" id="columnas">
+            </div>
+        </div>
+    </div>
+    
+    <div class="botones">
+        <div class="botones1">
+    <button onclick="crearMatriz()">Crear Matriz</button>
+        </div>
+        <div class="botones2">
+    <button onclick="pasarDatos()">Resolver</button>
+        </div>
+    </div>
+    <br>
+    <div class="junto">
+        <div class="toto">
+            <label>Operación</label>
+    <div id="miContenedor"></div>
+        </div>
+        <div class="tata">
+            <label">Oferta</label>
+    <div id="ContenedorFila"></div>
+        </div>
+    </div>
+    <div class="abajo">
+        <label>Demanda</label>
+    <div id="contenedorColumna"></div>
+    </div>
+    <br> 
+
+    <label>Resultados</label>
+    <div class="junto2">
+        <div class="toto2">
+    <div id="mi2Contenedor"></div>
+        </div>
+        <div class="tata2">
+    <div id="ofertaRestanteContainer" class="matrix-container"></div>
+        </div>
+    </div>
+    <div class="abajo2">
+    <div id="demandaRestanteContainer" class="matrix-container"></div>
+    </div>
+    <br>
+    <label for="minimo">Costo mínimo:</label>
+    <label id="minimo">-</label>
+</div>
+<script src="creamatriz.js"></script>
+<script src="resolver.js"></script>
+</body>
+</html>
